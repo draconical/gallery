@@ -1,0 +1,140 @@
+.gallery {
+    
+}
+
+/*header*/
+.gallery__header {
+    height: 80px;
+    box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    background-color: #eae3d1;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__header img {
+    height: 60px;
+}
+
+.gallery__header span {
+    font-size: 2em;
+    font-weight: 500;
+    color: #57433a;
+}
+
+/*content*/
+.gallery__content {
+    height: calc(100% - 80px);
+}
+
+.content__pictures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 10% 10px 10%;
+}
+
+.content__moreBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100px;
+}
+
+.content__moreBtn button {
+    width: 185px;
+    height: 45px;
+
+    border: none;
+    border-radius: 5px;
+    background-color: #eae3d1;
+    color: #57433a;
+    box-shadow: 0 2px 2px #888888;
+
+    font-size: 2em;
+    font-weight: 500;
+    line-height: 0px;
+
+    transition: 0.5s ease-in-out;
+}
+
+.content__moreBtn button:hover {
+    background-color: #57433a;
+    color: #eae3d1; 
+
+    transition: 0.5s ease-in-out;
+}
+
+.content__moreBtn button:active {
+    background-color: #eae3d1;
+}
+
+/*footer*/
+.gallery__footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+    height: 100px;
+    width: 100px;
+
+    position: fixed;
+    right: 0;
+    bottom: 0;
+
+    z-index: 3;
+}
+
+.gallery__footer button {
+    width: 80px;
+    height: 80px;
+
+    border-radius: 50%;
+    border: none;
+
+    margin-right: 10px;
+
+    background-color: #eae3d1;
+    box-shadow: 0 2px 2px #888888;
+    font-weight: 500;
+    font-size: 4em;
+
+    line-height: 0px;
+
+    transition: 0.5s ease-in-out;
+
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.gallery__footer button:hover {
+    background-color: #57433a;
+    transition: 0.5s ease-in-out;
+}
+
+.gallery__footer button:active {
+    background-color: #eae3d1;
+}
+
+.footer__addBtn {
+    background-image: url('../../assets/addBtn.png');
+}
+
+.footer__addBtn:hover {
+    background-image: url('../../assets/addBtnAlt.png');
+}
+
+.footer__delBtn {
+    background-image: url('../../assets/delBtn.png');
+}
+
+.footer__delBtn:hover {
+    background-image: url('../../assets/delBtnAlt.png');
+}
+
